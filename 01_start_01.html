@@ -29,18 +29,23 @@
 
         ul {
             /* height: 800px; */
-            width: 90%;
+            width: 70%;
         }
 
         ul li {
-            /* modifier la taille de base (largeur) des éléments */
+            /* modifier la taille de base (largeur) des éléments :
             flex-basis: 3em;
             
-            /* indication sur la manière dont les éléments peuvent s'agrandir ou se contracter, s'ils ont des l'espace en plus : */
+            /* indication sur la manière dont les éléments peuvent s'agrandir ou se contracter, s'ils ont des l'espace en plus : 
             flex-grow: 0;
 
-            /* indication sur comment les éléments peuvent se contracter s'il n'y a pas assez de largeur pour qu'ils s'affichent tous avec leur largeur de base de 3em : */
+            /* indication sur comment les éléments peuvent se contracter s'il n'y a pas assez de largeur pour qu'ils s'affichent tous avec leur largeur de base de 3em : 
             flex-shrink: 0;
+            */
+
+            /* Le raccourci "flex" permet de définir en une seule instruction les 3 propriétés ci-dessus : */
+            /* L'ordre est : 1- flex-grox, 2- flex-shrink, 3- flex-basis */
+            flex: 0 0 3em;
         }
 
     </style>
