@@ -17,15 +17,19 @@
             display: flex;
             
             /* gérer la direction sur l'axe principal : */
-            flex-flow: column-reverse wrap;
+            flex-flow: row wrap;
             
             /* gérer les espaces vides sur l'axe principal : */
-            justify-content: flex-end;
+            justify-content: space-around;
 
             /* gérer la direction sur l'axe secondaire : */
             align-items: flex-start;
 
+        }
 
+        /* aligner individuellement les éléments : */
+        .selfer {
+            align-self: flex-end;
         }
 
         /* Hauteur fixe du container : */
@@ -55,7 +59,7 @@
         <ul>
             <li>Un</li>
             <li>Deux</li>
-            <li>Trois</li>
+            <li class="selfer">Trois</li>
             <li>Quatre</li>
             <li>Cinq</li>
 
