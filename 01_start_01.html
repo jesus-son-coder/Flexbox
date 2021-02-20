@@ -29,11 +29,18 @@
 
         ul {
             /* height: 800px; */
+            width: 90%;
         }
 
         ul li {
             /* modifier la taille de base (largeur) des éléments */
             flex-basis: 3em;
+            
+            /* indication sur la manière dont les éléments peuvent s'agrandir ou se contracter, s'ils ont des l'espace en plus : */
+            flex-grow: 0;
+
+            /* indication sur comment les éléments peuvent se contracter s'il n'y a pas assez de largeur pour qu'ils s'affichent tous avec leur largeur de base de 3em : */
+            flex-shrink: 0;
         }
 
     </style>
@@ -43,7 +50,7 @@
 
 <body  style="padding-top: 40px;">
 
-    <div class="container">
+    <div class="container-fluid">
         <h1>Comprendre les Flexbox</h1>
         <ul>
             <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid tempore rerum fugit qui nesciunt iusto laudantium ducimus. Sit ullam, optio hic fugit, ducimus voluptate sapiente cupiditate voluptatem nulla iste voluptatum?</li>
