@@ -10,7 +10,7 @@ h1{
 }
 
 ul{
-	width: 960px;
+	/* width: 960px; */
 	margin: 0 auto;
 	list-style: none;
 	box-sizing: border-box;
