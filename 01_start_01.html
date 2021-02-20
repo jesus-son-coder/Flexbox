@@ -13,10 +13,20 @@
 
         /* Définir le Container Flexbox : */
         ul {
+            /* container : */
             display: flex;
+            
+            /* gérer la direction sur l'axe principal : */
             flex-flow: row wrap;
+            
+            /* gérer les espaces vides : */
             justify-content: space-around;
-            align-items : stretch;
+
+            /* gérer la direction sur l'axe secondaire : */
+            align-items: stretch;
+
+            /* gérer l'alignement des différentes rangées flex : */
+            align-content: stretch;
         }
 
         /* Hauteur fixe du container : */
