@@ -1,28 +1,17 @@
-body{
-	background-color: #6A9AE1;
-	margin: 0;
-}
+/*
+La feuille de style principale pour la page "Démo menu". Ce fichier appelle tous les autres composants.
+*/
+@import url('styles/reset.css');
+@import url('styles/accessibility.css');
+@import url('styles/layout.css');
+@import url('styles/typography.css');
+@import url('styles/masthead.css');
+@import url('styles/nav-base.css');
+@import url('styles/nav-single-level.css');
+@import url('styles/nav-advanced.css');
+@import url('styles/nav-multi-level.css');
+@import url('styles/nav-mixed.css');
+@import url('styles/nav-social.css');
 
-h1{
-	margin: 20px auto;
-	color: #FFF;
-	/* width: 960px; */
-}
 
-ul{
-	/* width: 960px; */
-	margin: 0 auto;
-	list-style: none;
-	box-sizing: border-box;
-	border: 3px solid #FFF;
-	padding: 10px;
-	background-color: #E7E7E7;
-}
-
-li{
-	background-color: #FFF;
-	padding: 20px;
-	font-size: 2em;
-	border: solid 3px #6A9AE1;
-}
 
