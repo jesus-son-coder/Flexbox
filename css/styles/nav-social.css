@@ -46,3 +46,8 @@
 .social-menu li a[href*="youtube.com"]::before { content: '\f167'; }
 
 .social-menu li a[href*="wordpress.com"]::before { content: '\f19a'; }
+
+
+#section-menu-social {
+    margin-top: 400px;
+}
