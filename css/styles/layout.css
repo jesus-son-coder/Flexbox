@@ -12,3 +12,7 @@ Mise en page
         max-width: 52em;
     }
 }
+
+.main-area {
+    background: hsl(0, 24.1%, 94.3%);
+}
