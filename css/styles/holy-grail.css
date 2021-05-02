@@ -84,12 +84,18 @@
 
 @media screen and (min-width: 40em) {
 
+    .outer-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
     .content {
         display: flex;
     }
 
     .main-area {
         flex: 1 1 auto;
+        order: 1;
     }
 
     .post-content {
@@ -99,6 +105,7 @@
 
     .sidebar {
         flex: 0 0 12em;
+        order:2;
     }
 
 }
